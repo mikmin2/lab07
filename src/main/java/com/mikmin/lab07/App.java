@@ -26,6 +26,7 @@ public class App extends Application {
         
         PathTransition pTrans = new PathTransition(new Duration(10000), pathRectangle, pathCircle);
         pTrans.setInterpolator(Interpolator.LINEAR);
+        pTrans.setRate(-1);
         
         pTrans.play();
         
