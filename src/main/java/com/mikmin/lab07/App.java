@@ -1,6 +1,5 @@
 package com.mikmin.lab07;
 
-import javafx.animation.Animation;
 import javafx.animation.FadeTransition;
 import javafx.animation.Interpolator;
 import javafx.animation.PathTransition;
@@ -9,12 +8,10 @@ import javafx.animation.ScaleTransition;
 import javafx.animation.SequentialTransition;
 import javafx.animation.TranslateTransition;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
@@ -29,6 +26,9 @@ import javafx.util.Duration;
  * JavaFX App
  */
 public class App extends Application {
+    
+    // github repository
+    // https://github.com/mikmin2/lab07/tree/master
 
     @Override
     public void start(Stage stage) {
